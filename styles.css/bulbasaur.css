@@ -1,0 +1,28 @@
+.principal {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 20px 0;
+  }
+  p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color: black;
+    background-color: green;
+    width: 100%;
+  }
+}
+.Evo {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
