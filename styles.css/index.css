@@ -10,11 +10,28 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* tarjetas main */
 .tarjetaPokemon:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
+.tarjetaPidgeot {
+  background: linear-gradient(to top right, #ffae00, #ffffff);
+}
+.tarjetaPikachu {
+  background: linear-gradient(to top right, #ffffff, #fffb00);
+}
+.tarjetaBulbasaur {
+  background: linear-gradient(to top right, #2bf14c, #124608f6);
+}
+.tarjetaSquirtle {
+  background: linear-gradient(to top right, #1f35ff, #00fad0f6);
+}
+.tarjetaCharmander {
+  background: linear-gradient(to top right, #fa3a00f6, #ffd61f);
+}
+
 /* Charmander */
 .imagenPrincipal {
   background: linear-gradient(to top right, #fa3a00f6, #ffd61f);
@@ -45,7 +62,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .imagenSecundariaSquirtle {
-  background: linear-gradient(to top right,#1f35ff, #00fad0f6);
+  background: linear-gradient(to top right, #1f35ff, #00fad0f6);
   margin-bottom: 10vw;
 }
 .imagenSecundariaSquirtle:hover {
