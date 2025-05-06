@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 15px;
+    width: 15vw;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    img{
+        width: 100%;
+        border: 1px solid black;
+    }
+    .pikachu {
+        padding: 30px;
+        border: 2px solid black;
+        
+
+    }
+}
