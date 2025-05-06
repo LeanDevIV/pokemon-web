@@ -1,10 +1,10 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-body{
+body {
   background-image: url(https://wallpaperaccess.com/full/9397242.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -16,3 +16,21 @@ body{
   transition: all 0.3s ease-in-out;
 }
 
+.imagenPrincipal {
+  background: linear-gradient(to top right, #fa3a00f6, #ffd61f) ;
+  margin-top: 2vh;
+}
+.imagenPrincipal:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.imagenSecundaria {
+  background: linear-gradient(to top right, #fa3a00f6, #ffd61f) ;
+  margin-bottom: 10vw;
+}
+.imagenSecundaria:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
