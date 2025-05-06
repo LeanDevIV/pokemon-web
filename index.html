@@ -13,11 +13,97 @@
     />
   </head>
   <body>
-    <header>
-
+    <!-- logo de pagina -->
+    <header class="header d-flex justify-content-center bg-danger">
+      <div class="logo">
+        <a href="#"
+          ><img
+            src="https://daveoval.github.io/Pokedex/media/pokedex-logo.png"
+            alt="logo de página"
+            width="400px"
+        /></a>
+      </div>
     </header>
+    <!-- Seccion de Main -->
     <main>
-        
+      <!-- Descripción de página -->
+      <div class="m-5">
+        <h1 class="text-center">POKEDEX</h1>
+        <p class="text-center">
+          Explorá los pokemon más populares. Esta pokedex contiene información
+          básica y acceso a detalles de cada criatura
+        </p>
+      </div>
+      <!-- Tarjetas de pokemon -->
+      <section
+        class="contenedorDeImagenes d-flex justify-content-evenly align-items-center g-2 mt-5"
+      >
+        <article class="card bg-success tarjetaPokemon" style="width: 18rem">
+          <h3 class="p-3 text-center">Bulbasaur</h3>
+          <img
+            src="https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png"
+            class="card-img-top"
+            alt="imagen de Bulbasaur"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">Peso: 69lbs</p>
+            <p class="card-text text-center">Tipo: planta</p>
+          </div>
+        </article>
+        <article class="card bg-danger tarjetaPokemon" style="width: 18rem">
+          <h3 class="p-3 text-center">Charmander</h3>
+          <img
+            src="https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png"
+            class="card-img-top"
+            alt="imagen de Bulbasaur"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">Peso: 85lbs</p>
+            <p class="card-text text-center">Tipo: Fuego</p>
+          </div>
+        </article>
+        <article class="card bg-warning tarjetaPokemon" style="width: 18rem">
+          <h3 class="p-3 text-center">Pikachu</h3>
+
+          <img
+            src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/200px-Pikachu.png"
+            class="card-img-top"
+            alt="imagen de Bulbasaur"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">Peso: 132lbs</p>
+            <p class="card-text text-center">Tipo: Eléctrico</p>
+          </div>
+        </article>
+
+        <article class="card bg-light tarjetaPokemon" style="width: 18rem">
+          <h3 class="p-3 text-center">Pidgeot</h3>
+
+          <img
+            src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/a/a9/latest/20141214190416/Pidgeot.png/200px-Pidgeot.png"
+            class="card-img-top"
+            alt="imagen de Bulbasaur"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">Peso: 87lbs</p>
+            <p class="card-text text-center">Tipo: Volador</p>
+          </div>
+        </article>
+
+        <article class="card bg-primary tarjetaPokemon" style="width: 18rem">
+          <h3 class="p-3 text-center">Squirtle</h3>
+
+          <img
+            src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/e/e3/latest/20160309230820/Squirtle.png/200px-Squirtle.png"
+            class="card-img-top"
+            alt="imagen de Bulbasaur"
+          />
+          <div class="card-body">
+            <p class="card-text text-center">Peso: 90lbs</p>
+            <p class="card-text text-center">Tipo: Agua</p>
+          </div>
+        </article>
+      </section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
