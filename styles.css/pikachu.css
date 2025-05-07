@@ -2,23 +2,22 @@
     margin: 0;
     padding: 0;
 }
-body{
-    border: 1px solid black;
-    padding: 30px;
-    margin: 15px;
-    width: 15vw;
-    border-radius: 10px;
+.contenedor {
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .items {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 224, 12);
     text-align: center;
-    
-    
-    img{
-        width: 100%;
-        border: 1px solid black;
-    }
-    .pikachu {
-        padding: 30px;
-        border: 2px solid black;
-        
-
-    }
-}
+    padding-top: 40px;
+    border-radius: 8px;
+  }
+  .items:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
