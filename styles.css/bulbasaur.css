@@ -1,3 +1,6 @@
+.caja {
+  margin-top: 50px;
+}
 .principal {
   border: 1px solid rgba(29, 28, 28, 0.555);
   border-radius: 10px;
@@ -15,14 +18,17 @@
   }
   p {
     text-align: center;
+    padding: 10px;
   }
   h2 {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: green;
     padding: 10px;
     width: 100%;
   }
+}
+.principal:hover {
+  transform: scale(1.1);
 }
 .Evo {
   display: flex;
@@ -55,6 +61,9 @@ h2 {
     height: 130px;
   }
 }
+.ivysaur:hover {
+  transform: scale(1.1);
+}
 .venusaur {
   border: 1px solid rgba(29, 28, 28, 0.555);
   border-radius: 10px;
@@ -68,17 +77,21 @@ h2 {
     height: 130px;
   }
 }
-
+.venusaur:hover {
+  transform: scale(1.1);
+}
 @media (min-width: 768px) {
   .caja {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr;
     margin: 10px;
+    margin-top: 50px;
   }
   .principal {
     grid-column: 1/5;
     grid-row: 1/3;
+    margin-left: 40px;
   }
 
   .Evo {
