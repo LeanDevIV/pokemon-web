@@ -10,6 +10,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo a img {
+  width: 250px;
+}
 /* tarjetas main */
 .tarjetaPokemon:hover {
   cursor: pointer;
@@ -69,4 +72,10 @@ body {
   cursor: pointer;
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
+}
+@media (min-width: 768px) {
+  .logo a img {
+    width: 400px;
+    margin-bottom: 10px;
+  }
 }
