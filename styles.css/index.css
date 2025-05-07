@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://wallpaperaccess.com/full/9397242.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo a img {
+  width: 250px;
+}
+/* tarjetas main */
+.tarjetaPokemon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.tarjetaPidgeot {
+  background: linear-gradient(to top right, #ffae00, #ffffff);
+}
+.tarjetaPikachu {
+  background: linear-gradient(to top right, #ffffff, #fffb00);
+}
+.tarjetaBulbasaur {
+  background: linear-gradient(to top right, #2bf14c, #124608f6);
+}
+.tarjetaSquirtle {
+  background: linear-gradient(to top right, #1f35ff, #00fad0f6);
+}
+.tarjetaCharmander {
+  background: linear-gradient(to top right, #fa3a00f6, #ffd61f);
+}
+
+/* Charmander */
+.imagenPrincipal {
+  background: linear-gradient(to top right, #fa3a00f6, #ffd61f);
+  margin-top: 2vh;
+}
+.imagenPrincipal:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.imagenSecundaria {
+  background: linear-gradient(to top right, #fa3a00f6, #ffd61f);
+  margin-bottom: 10vw;
+}
+.imagenSecundaria:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+/* Squirtle */
+.imagenPrincipalSquirtle {
+  background: linear-gradient(to top right, #1f35ff, #00fad0f6);
+  margin-top: 2vh;
+}
+.imagenPrincipalSquirtle:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.imagenSecundariaSquirtle {
+  background: linear-gradient(to top right, #1f35ff, #00fad0f6);
+  margin-bottom: 10vw;
+}
+.imagenSecundariaSquirtle:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 768px) {
+  .logo a img {
+    width: 400px;
+    margin-bottom: 10px;
+  }
+}
